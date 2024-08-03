@@ -197,7 +197,7 @@ const HomeScreen = () => {
       <View style={styles.header}>
         <Pressable onPress={handleScrollUp}>
           <Text style={styles.title}>
-            Pixels
+            Pix Art
           </Text>
         </Pressable>
         <Pressable onPress={openFiltersModal}>

@@ -35,19 +35,19 @@ const WelcomeScreen = () => {
             entering={FadeInDown.delay(400).springify()}
             style={styles.title}
           >
-            Pixels
+            Pix Art
           </Animated.Text>
           <Animated.Text
             entering={FadeInDown.delay(500).springify()}
             style={styles.puchline}
           >
-            Every Pixel Tells a Story
+            Look for the magic in every moment
           </Animated.Text>
           <Animated.View
             entering={FadeInDown.delay(600).springify()}
           >
             <Pressable onPress={() => router.push('home')} style={styles.startButton}>
-              <Text style={styles.startText}>Start Explore</Text>
+              <Text style={styles.startText}>Magic</Text>
             </Pressable>
           </Animated.View>
         </View>
